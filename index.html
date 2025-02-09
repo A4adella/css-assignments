@@ -41,6 +41,32 @@
             padding-top: 20px;
             text-align: center;
         }
+@media (min-width:320px){
+    h1 , h2{
+        margin-left: 140px;
+        width: 300px;
+    }
+    .flex-container{
+        display: grid;
+       grid-template-columns: repeat(6 90px);
+       margin-top: 60px;
+       margin-left: 100px;
+    }
+    .flex-item{
+        margin-top: 0;
+    }
+}
+@media (max-width:768px) {
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+    .flex-item{
+        width: 160px;
+    }
+    
+}
     </style>
     <title>IDEMETUK ADELLA EMMANUEL</title>
 </head>
