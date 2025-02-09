@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP pusher</title>
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wp-pusher">
+      <div class="nav-bar">
+        <img src="./Assets/wppusher-logo copy.png" alt="wp-logo" id="wp-logo" />
+        <nav>
+          <ul>
+            <li><a href="" class="Options">Download</a></li>
+            <li><a href="" class="Options">Learn more</a></li>
+            <li><a href="" class="Options">Pricing</a></li>
+            <li><a href="" class="Options">Help</a></li>
+            <li><a href="" class="account Options">Account</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="panel">
+        <div class="checkout flex-item1">
+          <h1>Checkout</h1>
+          <section class="basic">
+            <div class="basic-bg">
+              <img src="./Assets/1.png" alt="1" width="30px" height="30px" />
+              <p id="Information">Your Basic Information</p>
+            </div>
+            <div class="details">
+              <div id="Name">
+                <div id="FirstName">
+                  <label for="first-name">First Name</label><br />
+                  <input
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                    placeholder="Jane"
+                  />
+                </div>
+                <div id="LastName">
+                  <label for="last-name">Last Name</label><br />
+                  <input type="text" id="last-name" placeholder="Doe" />
+                </div>
+              </div>
+              <div id="EMAIL">
+                <label for="Email">E-mail</label><br />
+                <input
+                  type="email"
+                  id="Email"
+                  placeholder="janedoe@example.com"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="payment">
+            <div class="payment-title">
+              <img src="./Assets/2.png" alt="2" width="30px" height="30px" />
+              <p id="payment-info">Your Payment Information</p>
+            </div>
+            <div class="credit-card">
+              <label for="card-details">Credit Card</label><br />
+              <input
+                type="text"
+                id="card-details"
+                name="card-details"
+                placeholder="Card number                                        MM/YY  CVC"
+                inputmode="numeric"
+                maxlength="26"
+                required
+              />
+            </div>
+          </section>
+          <div class="purchase">
+            <button>Buy WP Pusher</button>
+            <img src="./Assets/support.png" alt="support" id="support" width="333px" height="30px">
+            <img src="./Assets/powered_by_stripe.png" alt="" id="powered_by_stripe" width="92px" height="20.1px">
+          </div>
+        </div>
+        <div class="flex-item2">
+          <img
+            src="./Assets/sidebar.png"
+            alt="sidebar"
+            width="312px"
+            height="795px"
+          />
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>

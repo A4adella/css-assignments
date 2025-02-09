@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+.desktop-description {
+  position: relative;
+  display: block;
+  height: 275px;
+  width: 460px;
+  top: 205px;
+  left: 140px;
+  gap: 0px;
+  opacity: 0px;
+}
+.Background {
+  width: 1024px;
+  height: 840px;
+  gap: 0px;
+  opacity: 0.04px;
+  display: flex;
+  flex-direction: row;
+}
+.form-bg {
+  width: 580px;
+  height: 679px;
+  left: 300px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+  top: 81px;
+  background: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+}
+.first-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-color: #ffffff;
+  width: 500px;
+}
+button {
+  width: 500px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: #2EC4B6;
+  border-color: #2EC4B6;
+  color: white;
+}
+span{
+  color: #2EC4B6;
+}
+.form-filled {
+  width: 238px;
+  height: 72px;
+  input {
+    width: 238px;
+    height: 48px;
+  }
+}
+.last-one {
+  width: 500px;
+  height: 72px;
+  display: block;
+}
+#activity-level {
+  width: 500px;
+  height: 48px;
+}
+#password {
+  width: 500px;
+  height: 48px;
+}
+#gender {
+  width: 238px;
+  height: 48px;
+}
+.last-two{
+  display: grid;
+  gap: 20px;
+}
+input::placeholder{
+  padding-left: 16px;
+}
+.privacy-agreement{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+@media (min-width: 1024px) {
+  .mobile-description{display: none;}
+}
+@media(max-width:768px){
+  .desktop-description{display: none;}
+  p{
+    width: 327px;
+    height: 50px;
+    position: relative;
+    left: 24px;
+    
+  }
+  h1{
+    width: 327px;
+    height: 30px;
+    position: relative;
+    left: 24px;
+    margin-bottom: 20px;
+  }
+  #mobile-logo{
+    width: 38.67px;
+    height: 40px;
+    left: 24px;
+    position: relative;
+  }
+  .Background{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-bg{
+    position: relative;
+    left: 5px;
+  }
+  .first-6{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .form-filled{
+    width: 295px;
+    height: 72px;
+    input{
+     width: 295px;
+     height: 60px;
+    }
+  }
+  #gender{
+    width: 295px;
+    height: 60px;
+  }
+  .last-two{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  #activity-level{
+    width: 295px;
+    height: 60px;
+  }
+  #password{
+    width: 295px;
+    height: 60px;
+  }
+  button{
+    width: 295px;
+    height: 48px;
+  }
+  .privacy-agreement{
+    width: 316px;
+height: 50px;
+position: relative;
+left: -2px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+  }
+  span{
+    color: #2EC4B6;
+  }
+}
+
+  
+
