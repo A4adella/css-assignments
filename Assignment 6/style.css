@@ -275,3 +275,45 @@ position: relative;
 height: 24px;
 padding-right: 5px;
 }
+@media(max-width:768px){
+  body{
+    width: 768px;
+  }
+  .herosection{
+    width: 768px;
+  }
+  .header{
+    left: 0px;
+  }
+  .intro{
+    width: 768px;
+  }
+  .description{
+    width: 100%;
+    left: 0px;
+  }
+  .signup{
+    left: 200px;
+  }
+  .group2{
+    left: 10px;
+    width: 700px;
+  }
+  .group3{
+    left: 0px;
+  }
+  .dframe2{
+    width: 700px;
+    left: 80px;
+  }
+  #d2frame1{
+    left: 100px;
+  }
+  .d2frame2{
+    width: 768px;
+    left: 80px;
+  }
+  .d2frame3{
+    left: 250px;
+  }
+}
